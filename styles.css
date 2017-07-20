@@ -1,0 +1,30 @@
+html{
+	font-family: sans-serif;
+}
+.button{
+	display:block;
+	padding:0.5em 0.75em;
+	text-decoration:none;
+	background-color: #eee;
+	color: black;
+	font-size:2em;
+}
+
+.menu{
+	transition: 0.5s ease-in-out;
+	transform:translateX(0px);
+	opacity: 0;
+	padding: 0;
+}
+
+.menu.is-open{
+	opacity:1;
+	transition: 0.5s ease-in-out;
+	transform:translateX(0px);
+	padding:20px 0;
+}
+
+.menu a{
+	display:block;
+	color:black;
+}
